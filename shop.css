@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-width: hidden;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 20px;
+  font-weight: bold;
+}
+.logo {display: inline-block;
+  width: 150px;
+  align-items: center;
+margin-left: 70px;
+}
+.home{
+  display: inline-block;
+  background-color: #eea539;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 5px 20px;
+  margin-left: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+.menu{
+  gap: 50px;
+  list-style-type: none;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.nav{display: inline-block;
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  vertical-align: top;
+  background-color: #f4f7fb;
+
+}
+.nav-links{display: flex;
+  gap: 20px;
+  vertical-align: top;
+  margin-bottom: 25px;
+  margin-left: 10em;
+}
+.cart-icon, .avatar{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.cart-icon {
+ margin-left: 15em;
+}
+.avatar {
+  border-radius: 50%;
+  margin-right: 3em;
+}
+.all{display: inline;
+  margin-left: 5em;
+  margin-bottom: 20px;
+  list-style-type: none;
+  display: flex;
+  gap: 10em;
+  white-space: nowrap;
+}
+.all>li:first-child {
+  color: #eea539;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+.products1 {
+  gap: 30px;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  
+}
+
+
+.product-card {
+    width: 250px;
+    background-color: #f9f9ff; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: visible;
+    text-align: center;
+    position: relative; 
+    border-radius: 8px;
+}
+.image-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    top: -100px;
+    overflow: hidden;
+    border-radius: 50%;
+  
+}
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+#big {
+    width: 190px;
+    height: 190px;
+    top: -100px;
+}
+#medium {
+    width: 180px;
+    height: 180px;
+    top: -100px;
+}
+#smedium {
+    width: 170px;
+    height: 170px;
+    top: -100px;
+}
+#small {
+    width: 170px;
+    height: 170px;
+    top: -100px;
+}
+.product-details {
+    padding: 20px;
+    padding-top: 100px;
+    background-color: transparent;
+}
+.product-details h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.product-details .price {
+    margin: 0 0 20px 0;
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 13px; 
+    font-size: 1em;
+    font-weight: bold;
+    width: 65%;
+    text-transform: uppercase;
+    position: absolute;
+    right: 18%;
+    }
+footer {
+  text-align: center;
+  padding: 100px;
+  background-color: #000000;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #ffffff;
+  vertical-align: top;
+}
+footer fi
+footer p {
+  color: #ffffff;
+}
+footer h4{
+  margin-bottom: 10px;
+  ;
+}
+footer .footer-img{
+  width: 200px;
+  height: auto;
+ margin-top: 10px;
+ margin-right: 50px;
+ text-align: top;
+}
+.social-icons {
+  justify-content: center;
+  gap: 20px;
+  width: 20px;
+  height: 20px;
+}
+footer ul {
+    list-style-type: none;
+  padding: 0;
+}
+footer ul li {
+  margin: 10px 0;
+}
+footer ul :first-child {
+  color: #eea539;
+  }
+  footer ol li {
+    list-style-type: none;
+    white-space: nowrap;
+
+     }
+   
+.form-group {
+    display: flex;
+}
+footer .last{text-align: start;}
+footer .last input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+footer .last button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #eea539;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+
+
+
