@@ -18,13 +18,21 @@
       <button class="home">Home</button>
       <ul class="menu">
       <li>About Us</li>
-      <li>Shop</li>
+      <li>
+        <a href="./shop.html">
+          <button>Shop</button>
+        </a>
+      </li>
       <li>Contact</li>
       </ul>
     </nav>
-      <img class="cart-icon" src="./images/shopping-cart.png">
-      <img class="avatar" src="./images/avatar.png">
-  
+      <img class="navicons" id="basket" src="./images/shopping-cart.png">
+      <span class="cart-count">0</span>
+      <img class="navicons" id="avatar" src="./images/avatar.png">
+    
+  </div>
+  <div class="cart-container" >
+  </div>
   </div>
   </header>
   
@@ -112,15 +120,17 @@
         </ul>
         
         <div class="menu-items">
-            <div class="menu-item active">Chicken Pizza</div>
-            <div class="menu-item">Pepperoni</div>
-            <div class="menu-item">Margherita</div>
-            <div class="menu-item">Hawaiian</div>
-            <div class="menu-item">Meat Lover's Pizza</div>
+           <ul>
+             <li class="item">chicken Pizza</li>
+             <li class="item">Pepperoni</li>
+            <li class="item">Margherita</li>
+            <li class="item">Hawaiian</li>
+            <li class="item">Meat Lover's Pizza</li>
+            </ul>
         </div>
         <hr class="divider">
     </div>
-  <section class="types3b">
+  <section class="types3b" chicken>
 <div class="type3c">
    <img src="./images/chicken pizza.jpeg" class="types3img">
     <ul>
@@ -128,7 +138,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
     <div class="type3c">
    <img src="./images/chicken pizza.jpeg" class="types3img">
@@ -137,7 +147,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
     <div class="type3c">
    <img src="./images/chicken pizza.jpeg" class="types3img">
@@ -146,10 +156,10 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
   </section>
-   <section class="types3b">
+   <section class="types3b" pepperoni>
   
      <div class="type3c">
    <img src="./images/pepperoni.jpeg" class="types3img">
@@ -158,7 +168,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
       <div class="type3c">
    <img src="./images/pepperoni.jpeg" class="types3img">
@@ -167,7 +177,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
       <div class="type3c">
    <img src="./images/pepperoni.jpeg" class="types3img">
@@ -176,10 +186,10 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
    </section>
-   <section class="types3b">
+   <section class="types3b" margeritta>
 <div class="type3c">
    <img src="./images/margeritta.jpeg" class="types3img">
     <ul>
@@ -187,7 +197,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
     <div class="type3c">
    <img src="./images/margeritta.jpeg" class="types3img">
@@ -196,7 +206,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
     <div class="type3c">
    <img src="./images/margeritta.jpeg" class="types3img">
@@ -205,7 +215,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
   </section>
    <section class="types3b">
@@ -216,7 +226,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
     <div class="type3c">
    <img src="./images/hawaian.jpeg" class="types3img">
@@ -225,7 +235,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
     <div class="type3c">
    <img src="./images/hawaian.jpeg" class="types3img">
@@ -234,11 +244,11 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
     
   </section>
-   <section class="types3b">
+   <section class="types3b" meat>
   <div class="type3c">
    <img src="./images/meat lovers pizza.jpeg" class="types3img">
     <ul>
@@ -246,7 +256,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
      <div class="type3c">
    <img src="./images/meat lovers pizza.jpeg" class="types3img">
@@ -255,7 +265,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart" >Add to cart</button>
     </div>
      <div class="type3c">
    <img src="./images/meat lovers pizza.jpeg" class="types3img">
@@ -264,7 +274,7 @@
     <li>(cheese with shrimp)</li>
     <li>ksh.1500</li>
     </ul>
-    <button>Add to cart</button>
+    <button class="add-to-cart">Add to cart</button>
     </div>
    </section>
   
@@ -397,5 +407,7 @@
 </div>
 
 </footer>
+<script src="index.js"></script>
+<script src="cart.js"></script>
 </body>
 </html>
